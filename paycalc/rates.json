@@ -1,0 +1,27 @@
+{
+  "_comment": "급여 계산기 요율. 수정하면 앱 다음 실행부터 반영. 범위를 벗어난 값은 앱이 무시함. 출처 확인일 2026-11-21",
+  "years": {
+    "2026": {
+      "minimumWage": 10320,
+      "pensionRate": 0.0475,
+      "healthRate": 0.03595,
+      "healthTotalRate": 0.0719,
+      "longTermCareIncomeRate": 0.009448,
+      "employmentRate": 0.009,
+      "unemploymentDailyMax": 68100
+    },
+    "2027": {
+      "minimumWage": 10700,
+      "pensionRate": 0.05,
+      "healthRate": 0.03595,
+      "healthTotalRate": 0.0719,
+      "longTermCareIncomeRate": 0.009994,
+      "employmentRate": 0.010,
+      "unemploymentDailyMax": 68100
+    }
+  },
+  "pensionBases": [
+    { "from": "2025-07-01", "min": 400000, "max": 6370000 },
+    { "from": "2026-07-01", "min": 410000, "max": 6590000 }
+  ]
+}
